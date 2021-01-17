@@ -6,7 +6,8 @@
   --white-color: #ffffff;
   --black-color: #000000;
   --contacts-color: rgba(255, 255, 255, 0.6);
-  --background-main: #f5f4fa;
+  --background-main: #2f303a;
+  --background-team: #f5f4fa;
 }
 
 body {
@@ -148,6 +149,10 @@ li {
   color: var(--white-color);
 }
 
+.hero {
+  background: var(--background-main);
+}
+
 /* .hero-title-btn:hover,
 .hero-title-btn:focus {
   color: var(--accent-color);
@@ -239,6 +244,11 @@ li {
 .basement-contacts-link:focus {
   color: var(--accent-color);
 }
+
+.basement {
+  background: var(--background-main);
+}
+
 /* ======== FOOTER END ========= */
 
 /* ======== PORTFOLIO LINK BLOCK ========= */
