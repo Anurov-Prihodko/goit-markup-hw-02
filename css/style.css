@@ -55,7 +55,7 @@ li {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  /* color: var(--white-color); */
+  color: var(--white-color);
 }
 
 .logo-main-portfolio {
@@ -64,6 +64,7 @@ li {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
+  color: var(--black-color);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -73,11 +74,6 @@ li {
 
 .logo-main:hover,
 .logo-main:focus {
-  color: var(--accent-color);
-}
-
-.basement-logo:hover,
-.basement-logo:focus {
   color: var(--accent-color);
 }
 
@@ -138,10 +134,10 @@ li {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* color: var(--white-color); */
+  color: var(--white-color);
 }
 
-.hero-btn {
+.hero-title-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -149,11 +145,11 @@ li {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  /* color: var(--white-color); */
+  color: var(--white-color);
 }
 
-/* .hero-btn:hover,
-.hero-btn:focus {
+/* .hero-title-btn:hover,
+.hero-title-btn:focus {
   color: var(--accent-color);
 } */
 
@@ -217,12 +213,13 @@ li {
 
 /* ======== FOOTER ========= */
 
-.address-link {
+.address-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  /* color: var(--white-color); */
+  color: var(--white-color);
+  /* color: var(--black-color); */
 }
 
 .basement-contacts-link {
@@ -230,7 +227,7 @@ li {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  /* color: var(--contacts-color); */
+  color: var(--contacts-color);
 }
 
 .address-link:hover,
