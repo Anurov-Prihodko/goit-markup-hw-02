@@ -212,6 +212,11 @@ li {
   line-height: 1.188;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--text-main-color);
+}
+
+.our-team {
+  color: var(--background-team);
 }
 
 /* ======== OUR TEAM BLOCK END ========= */
