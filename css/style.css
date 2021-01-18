@@ -51,22 +51,12 @@ li {
 }
 
 .basement-logo {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
   color: var(--white-color);
 }
 
-.logo-main-portfolio {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
+.logo-portfolio {
   color: var(--black-color);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
 
 .logo-blue {
@@ -146,6 +136,10 @@ li {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  border: 0px;
+  background: var(--accent-color);
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+  border-radius: 4px;
   color: var(--white-color);
 }
 
@@ -161,17 +155,6 @@ li {
 /* ======== HERO BLOCK END ========= */
 
 /* ======== HIDDEN HEADER ========= */
-
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
-}
 
 /* ======== HIDDEN HEADER END ========= */
 
@@ -224,12 +207,13 @@ li {
 /* ======== FOOTER ========= */
 
 .address-text {
+  font-family: var(--text-font);
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--white-color);
-  /* color: var(--black-color); */
 }
 
 .basement-contacts-link {
@@ -264,12 +248,16 @@ li {
   line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
+  border-radius: 4px;
+  border: 0px;
+  background: var(--background-team);
   color: var(--text-head-color);
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   color: var(--white-color);
+  background: var(--accent-color);
 }
 
 /* ======== PORTFOLIO LINK BLOCK END ========= */
